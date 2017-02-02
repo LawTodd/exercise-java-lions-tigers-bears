@@ -10,6 +10,7 @@ public class OhMyIteratorTest {
 
 	private static final String[] EMPTY_ARRAY = new String[] {};
 	private static final String[] ANIMALS = { "lions", "tigers", "bears" };
+	//private String[] elements;
 
 	@Test
 	public void shouldReturnFirstElement() {
@@ -36,7 +37,7 @@ public class OhMyIteratorTest {
 		
 		boolean hasNext = underTest.hasNext();
 		
-		Assert.assertTrue(hasNext);
+		//Assert.assertTrue(hasNext);
 		// which is the same as...
 		Assert.assertEquals(true, hasNext);
 	}
